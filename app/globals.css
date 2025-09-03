@@ -1,6 +1,29 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: OpenSans;
+  src: url('../public/fonts/OpenSans-Regular.ttf');
+}
+
 @theme {
   --color-outer-dark: #111111;
   --color-inner-dark: #191919;
+  --font-opensans: OpenSans, 'sans-serif';
+  --animate-fade: fadeInOpacity 400ms ease-in-out;
+
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
