@@ -4,6 +4,7 @@ import { ReactNode, useEffect, useState } from 'react'
 import { LuSun, LuMoon } from 'react-icons/lu'
 import '../globals.css'
 import { useTheme } from 'next-themes'
+import TextLink from './TextLink'
 
 const AppWrapper = ({ children }: { children: ReactNode }) => {
   const [mounted, setMounted] = useState(false)
@@ -41,7 +42,7 @@ const AppWrapper = ({ children }: { children: ReactNode }) => {
           </button>
         </div>
       </div>
-      <main className='w-full lg:w-[1000px] m-auto  p-0 lg:p-3'>
+      <main className='w-full lg:w-[1000px] m-auto p-0 lg:p-3 lg:pb-0'>
         <header>
           <a href='/'>
             <div className='flex items-center justify-center relative bg-[url(/images/mobile-banner.jpg)] bg-no-repeat bg-cover lg:bg-[url(/images/banner.jpg)] bg-center w-full lg:w-[calc(100% - 32px)] mw-[980px] h-[300px] lg:h-[232px] rounded-none lg:rounded-md border-0 lg:border-1 border-zinc-500 dark:border-neutral-900' />
@@ -75,6 +76,10 @@ const AppWrapper = ({ children }: { children: ReactNode }) => {
           </ul>
         </header>
         {children}
+        <footer className='p-3 text-sm border-1 border-zinc-500 dark:border-neutral-800 bg-zinc-100 dark:bg-inner-dark rounded-t-sm shadow-xl text-neutral-800 dark:text-neutral-300'>
+          © Paul's Rifle Clan {new Date().getFullYear()}. Site made by Paul. For enquiries contact{' '}
+          <TextLink href='mailto:paulsrifleclan@gmail.com'>paulsrifleclan@gmail.com</TextLink>.
+        </footer>
       </main>
     </div>
   )
