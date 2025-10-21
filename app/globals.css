@@ -5,10 +5,16 @@
   src: url('../public/fonts/OpenSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: Exo2;
+  src: url('../public/fonts/Exo2-Regular.ttf');
+}
+
 @theme {
   --color-outer-dark: #111111;
   --color-inner-dark: #191919;
   --font-opensans: OpenSans, 'sans-serif';
+  --font-exo2: Exo2, 'sans-serif';
   --animate-fade: fadeInOpacity 400ms ease-in-out;
 
   @keyframes fadeInOpacity {

@@ -7,7 +7,7 @@ import ContentSection from './components/ContentSection'
 const Homepage = () => {
   return (
     <>
-      <div className='p-3 lg:px-0 lg:py-3 gap-3 lg:gap-5 grid lg:grid-cols-[3fr_1fr]'>
+      <div className='p-3 lg:px-0 lg:py-3 gap-5 grid lg:grid-cols-[3fr_1fr]'>
         <ContentSection title='Overview'>
           <p className='mt-0'>
             Welcome to the Paul's Rifle Clan website. We are a US-based Call of Duty 1 rifle clan that plays in CoD
