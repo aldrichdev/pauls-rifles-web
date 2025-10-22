@@ -11,4 +11,10 @@ export const clanMembers = [
     photo: '/images/avatars/vicious.png',
     isOfficer: true,
   },
+  {
+    name: 'Tyler',
+    rank: 'Private',
+    photo: '/images/avatars/tyler.png',
+    isOfficer: false,
+  },
 ]
