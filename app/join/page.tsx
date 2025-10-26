@@ -73,7 +73,10 @@ const JoinPage = () => {
             <ClanTag /> server, and may include, but would not be limited to, Wawa 1v1, S&D matches, or a match with
             some other gametype on stock maps. In your tryout, play as well as you can, and try to get a very good
             score. Additionally, you should be wearing <ClanTag />
-            <strong>Rct.</strong> tags during the tryout.
+            <strong>
+              Rct<span className='text-yellow-500'>.</span>
+            </strong>{' '}
+            tags during the tryout.
           </p>
           <p>
             Depending on your skill level, there may need to be multiple tryout sessions. If you perform well in your
