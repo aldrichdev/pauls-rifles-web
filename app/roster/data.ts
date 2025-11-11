@@ -13,7 +13,7 @@ export const clanMembers = [
   },
   {
     name: 'Tyler',
-    rank: 'Private First Class',
+    rank: 'Corporal',
     photo: '/images/avatars/tyler.png',
     isOfficer: false,
   },
