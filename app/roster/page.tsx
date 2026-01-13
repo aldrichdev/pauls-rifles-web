@@ -21,8 +21,8 @@ const RosterPage = () => {
           <TextLink href='https://www.defense.gov/resources/insignia/' target='_blank'>
             US Army
           </TextLink>{' '}
-          ranks in this clan. To earn a higher rank, you need to play actively and also submit screenshots with a
-          positive score. Do you best out there and make us proud, soldier!
+          ranks in this clan. To earn a higher rank, you need to play actively and submit screenshots with a positive
+          score on our forums. Do you best out there and make us proud, soldier!
         </p>
         <h1 className='text-3xl font-bold text-center'>Officers</h1>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 pt-4 pb-8'>
