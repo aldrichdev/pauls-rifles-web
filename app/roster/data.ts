@@ -6,15 +6,9 @@ export const clanMembers = [
     isOfficer: true,
   },
   {
-    name: 'Vicious',
-    rank: 'General',
-    photo: '/images/avatars/vicious.png',
-    isOfficer: true,
-  },
-  {
     name: 'Tyler',
-    rank: 'Corporal',
+    rank: 'Warrant Officer 1',
     photo: '/images/avatars/tyler.png',
-    isOfficer: false,
+    isOfficer: true,
   },
 ]
