@@ -2,6 +2,16 @@
 
 Website for the =PRC= clan of Call of Duty 1.
 
+## Setup
+
+With the root directory of the app checked out, run this in a terminal:
+
+```
+nvm use 20.0.0
+npm install
+npm run dev
+```
+
 # Developer Notes
 
 ## Flicker when switching between pages
