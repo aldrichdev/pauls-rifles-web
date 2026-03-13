@@ -67,9 +67,9 @@ const Homepage = () => {
       </div>
       <div className='p-3 lg:px-0 lg:py-3 grid gap-5 lg:grid-cols-[1fr_1fr]'>
         <ContentSection title='Community Events'>
-          <p>We have weekly server events on Wednesdays and Fridays at 7 PM CST!</p>
+          <p>We have weekly server events on Wednesdays and Fridays!</p>
           <p>
-            Join us on Wednesdays for{' '}
+            Join us on Wednesdays at <strong>7PM PST</strong> for{' '}
             <a
               href='https://discord.gg/GCSBGQqhA4?event=1398116210670960711'
               target='_blank'
@@ -80,7 +80,7 @@ const Homepage = () => {
             , where we practice rifles-only combat on the Wawa map via 1v1 matches. First to 15 kills wins the match.
           </p>
           <p>
-            On Fridays, join us for{' '}
+            On Fridays, join us at <strong>9PM PST</strong> for{' '}
             <a
               href='https://discord.gg/GCSBGQqhA4?event=1398068386067648522'
               target='_blank'
